@@ -247,7 +247,7 @@ function SalesPage() {
           </div>
 
           <div className="mt-12 bg-[var(--bg-hero)] rounded-2xl p-6 text-center fade-in">
-            <p className="text-lg text-[var(--text-dark)] font-bold inline-flex flex-wrap items-center justify-center gap-2"><Smartphone className="w-5 h-5 text-[var(--primary-dark)]" /> Versão Digital Editável <Printer className="w-5 h-5 text-[var(--primary-dark)]" /> </p>
+            <p className="text-lg text-[var(--text-dark)] font-bold inline-flex flex-wrap items-center justify-center gap-2"><Smartphone className="w-5 h-5 text-[var(--primary-dark)]" /> Versão Digital Editável </p>
             <p className="text-[var(--text-body)] mt-2">Acesso imediato - comece a utilizar hoje hoje mesmo.</p>
           </div>
 
