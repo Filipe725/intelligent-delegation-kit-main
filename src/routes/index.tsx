@@ -247,7 +247,7 @@ function SalesPage() {
           </div>
 
           <div className="mt-12 bg-[var(--bg-hero)] rounded-2xl p-6 text-center fade-in">
-            <p className="text-lg text-[var(--text-dark)] font-bold inline-flex flex-wrap items-center justify-center gap-2"><Smartphone className="w-5 h-5 text-[var(--primary-dark)]" /> Versão Digital Editável  +  <Printer className="w-5 h-5 text-[var(--primary-dark)]" /> Versão para Imprimir em A4</p>
+            <p className="text-lg text-[var(--text-dark)] font-bold inline-flex flex-wrap items-center justify-center gap-2"><Smartphone className="w-5 h-5 text-[var(--primary-dark)]" /> Versão Digital Editável <Printer className="w-5 h-5 text-[var(--primary-dark)]" /> </p>
             <p className="text-[var(--text-body)] mt-2">Acesso imediato - comece a utilizar hoje hoje mesmo.</p>
           </div>
 
@@ -264,7 +264,7 @@ function SalesPage() {
           <div className="grid md:grid-cols-3 gap-6 fade-in">
             {[
               { n: 1, Icon: ShoppingCart, t: "Compre agora com segurança", d: "Pagamento seguro. Acesso imediato após confirmação." },
-              { n: 2, Icon: Printer, t: "Organize sua rotina em poucos minutos", d: "Baixe os arquivos, imprima em A4 ou use direto no celular/tablet." },
+              { n: 2, Icon: Printer, t: "Organize sua rotina em poucos minutos", d: "Baixe os arquivos, Comece a usar em poucos minutos." },
               { n: 3, Icon: Home, t: "Cole na geladeira e comece hoje", d: "Em menos de 30 minutos sua casa já tem um sistema com todos participando." },
             ].map((s) => (
               <div key={s.n} className="bg-white rounded-2xl p-6 soft-shadow text-center relative">
